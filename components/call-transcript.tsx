@@ -8,6 +8,7 @@ export interface TranscriptMessage {
   speaker: "agent" | "customer"
   text: string
   timestamp: number
+  audioUrl?: string
 }
 
 interface CallTranscriptProps {
@@ -49,6 +50,16 @@ export default function CallTranscript({ isCallActive, messages }: CallTranscrip
                     {message.speaker === "agent" ? "👤 Agent" : "👤 Khách hàng"}
                   </p>
                   <p className="text-sm">{message.text}</p>
+                  {message.audioUrl && (
+                    <a
+                      href={message.audioUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-blue-200 underline mt-2 block hover:text-white"
+                    >
+                      🔊 Nghe lại ghi âm
+                    </a>
+                  )}
                   <p className="text-xs mt-2 opacity-70">{new Date(message.timestamp).toLocaleTimeString("vi-VN")}</p>
                 </div>
               </div>

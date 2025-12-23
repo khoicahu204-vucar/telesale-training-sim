@@ -174,34 +174,30 @@ export default function Dashboard({ account }: DashboardProps) {
   const processUserAudio = async (audioBlob: Blob) => {
     setIsProcessing(true)
     try {
-      // 0. Upload Audio (Background)
+      // Parallel: Upload Audio & STT
       const uploadFormData = new FormData()
       uploadFormData.append("file", audioBlob, `recording-${Date.now()}.webm`)
-      fetch("/api/upload-audio", {
-        method: "POST",
-        body: uploadFormData
-      }).then(res => res.json())
-        .then(data => console.log("Audio uploaded:", data.url))
-        .catch(err => console.error("Audio upload failed:", err))
 
-      // 1. STT
-      const formData = new FormData()
-      formData.append("file", audioBlob, "recording.webm")
+      const sttFormData = new FormData()
+      sttFormData.append("file", audioBlob, "recording.webm")
 
-      const sttRes = await fetch("/api/stt", {
-        method: "POST",
-        body: formData
-      })
+      const [uploadRes, sttRes] = await Promise.all([
+        fetch("/api/upload-audio", { method: "POST", body: uploadFormData }),
+        fetch("/api/stt", { method: "POST", body: sttFormData })
+      ])
+
+      const uploadData = await uploadRes.json()
       const sttData = await sttRes.json()
 
       if (!sttData.text) throw new Error("STT Failed")
 
-      // Add User Message
+      // Add User Message with Audio URL
       const userMsg: TranscriptMessage = {
         id: Date.now().toString(),
         speaker: "agent",
         text: sttData.text,
-        timestamp: Date.now()
+        timestamp: Date.now(),
+        audioUrl: uploadData.url
       }
       setMessages(prev => [...prev, userMsg])
 
