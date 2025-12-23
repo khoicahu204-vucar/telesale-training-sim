@@ -1,0 +1,27 @@
+{
+  "id": "transcript-1766464482605",
+  "timestamp": "2025-12-23T04:34:42.605Z",
+  "agentId": "agent-001",
+  "scenarioId": "scen-001",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "Alo? Có phải bên hỗ trợ không? Đơn hàng của tôi đâu rồi? Tôi đã đợi 3 ngày rồi mà chưa thấy đâu!",
+      "timestamp": 1766464457696
+    },
+    {
+      "id": "1766464473568",
+      "speaker": "agent",
+      "text": "Hello, hello. Em nghe em nói không anh?",
+      "timestamp": 1766464473568
+    },
+    {
+      "id": "1766464474856",
+      "speaker": "customer",
+      "text": "Nghe rõ mà. Các bạn có thể cho tôi biết vụ đơn hàng #ORD-123 của tôi là sao không? Tôi đã đặt 3 ngày nay rồi mà vẫn chưa nhận được hàng.",
+      "timestamp": 1766464474855
+    }
+  ],
+  "evaluation": "Pending"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "transcript-1766475866545",
+  "timestamp": "2025-12-23T07:44:26.545Z",
+  "agentId": "agent-001",
+  "scenarioId": "cust-005",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "À chị nghe máy. Mà em ơi chị hỏi cái này, chị chỉ định khảo giá thôi chứ chưa chắc bán đâu nha.",
+      "timestamp": 1766475772095
+    },
+    {
+      "id": "1766475799998",
+      "speaker": "agent",
+      "text": "Dạ, alo chị ơi, chị có phải là chị Lan, chủ chiếc xe Toyota Vios đúng không ạ?",
+      "timestamp": 1766475799998
+    },
+    {
+      "id": "1766475800985",
+      "speaker": "customer",
+      "text": "Ừ đúng rồi em. Có chuyện gì không em?",
+      "timestamp": 1766475800984
+    },
+    {
+      "id": "1766475814671",
+      "speaker": "agent",
+      "text": "Nội dung ngắn, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm,",
+      "timestamp": 1766475814671
+    },
+    {
+      "id": "1766475815897",
+      "speaker": "customer",
+      "text": "Em ơi, chị không nghe rõ em nói gì. Em lặp lại giúp chị được không?",
+      "timestamp": 1766475815896
+    },
+    {
+      "id": "1766475832567",
+      "speaker": "agent",
+      "text": "Em là Khoi, em gọi từ Puka. Chị muốn bán xe Toyota Vios mới điền thông tin ở bên em đúng không ạ?",
+      "timestamp": 1766475832567
+    },
+    {
+      "id": "1766475834393",
+      "speaker": "customer",
+      "text": "Đúng rồi em. Nhưng chị chỉ muốn tham khảo giá thôi, chứ chưa chắc bán đâu. Em nói rõ giúp chị cái vụ đấu giá miễn phí, nếu không bán thì không mất tiền đúng không em?",
+      "timestamp": 1766475834392
+    },
+    {
+      "id": "1766475858318",
+      "speaker": "agent",
+      "text": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+      "timestamp": 1766475858318
+    },
+    {
+      "id": "1766475858936",
+      "speaker": "agent",
+      "text": "Các bạn hãy đăng kí cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+      "timestamp": 1766475858936
+    },
+    {
+      "id": "1766475859414",
+      "speaker": "customer",
+      "text": "Em ơi, em đang nói gì thế nhỉ? Em đừng quảng cáo nha, chị chỉ muốn biết về việc đấu giá xe thôi.",
+      "timestamp": 1766475859413
+    },
+    {
+      "id": "1766475860142",
+      "speaker": "customer",
+      "text": "Em không rõ lắm về chuyện đăng ký kênh, chị hỏi về xe của chị thôi nhé. Chị cần biết thêm thông tin gì nữa về quy trình đấu giá hoặc về việc định giá xe không ạ?",
+      "timestamp": 1766475860141
+    }
+  ],
+  "evaluation": "Pending"
+}

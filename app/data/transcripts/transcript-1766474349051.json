@@ -1,0 +1,147 @@
+{
+  "id": "transcript-1766474349051",
+  "timestamp": "2025-12-23T07:19:09.051Z",
+  "agentId": "agent-001",
+  "scenarioId": "cust-003",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "Alo, tôi nghe đây.",
+      "timestamp": 1766474155816
+    },
+    {
+      "id": "1766474165502",
+      "speaker": "agent",
+      "text": "Dạ anh ơi, anh có phải là anh Thành, chủ chiếc Hyundai Accent 2019 đúng không ạ?",
+      "timestamp": 1766474165502
+    },
+    {
+      "id": "1766474166404",
+      "speaker": "customer",
+      "text": "Đúng rồi, tôi là Thành đây. Có chuyện gì không bạn?",
+      "timestamp": 1766474166403
+    },
+    {
+      "id": "1766474182615",
+      "speaker": "agent",
+      "text": "Dạ anh ơi, em gọi mình từ Vũ Khóa á anh. Dạ, em có thấy SĐ đài thông tin muốn bán xe Hyundai Accent. Thì không biết là hiện tại khu vực xe của mình có phải là ở Thuận An, Bình Dương không anh?",
+      "timestamp": 1766474182615
+    },
+    {
+      "id": "1766474183575",
+      "speaker": "customer",
+      "text": "Đúng rồi, xe tôi hiện đang ở Thuận An, Bình Dương. Bạn muốn hỏi gì thêm không?",
+      "timestamp": 1766474183574
+    },
+    {
+      "id": "1766474198069",
+      "speaker": "agent",
+      "text": "Dạ, không biết là hiện tại là xe của mình đã đi được 132.000 cây đúng không anh ạ?",
+      "timestamp": 1766474198069
+    },
+    {
+      "id": "1766474199183",
+      "speaker": "customer",
+      "text": "Đúng rồi, xe đi được 132.000 km rồi. Bạn có cần thông tin gì thêm không?",
+      "timestamp": 1766474199182
+    },
+    {
+      "id": "1766474213745",
+      "speaker": "agent",
+      "text": "Dạ, em biết hiện tại giá môn muốn của mình là bao nhiêu anh ha?",
+      "timestamp": 1766474213745
+    },
+    {
+      "id": "1766474214548",
+      "speaker": "customer",
+      "text": "Tầm 400 triệu nhé. Tôi tham khảo trên mạng rồi.",
+      "timestamp": 1766474214547
+    },
+    {
+      "id": "1766474230304",
+      "speaker": "agent",
+      "text": "Nội dung ngắn, không có tạp âm âm, không có tạp âm âm, không có tạp âm âm, không có tạp âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm â",
+      "timestamp": 1766474230304
+    },
+    {
+      "id": "1766474231560",
+      "speaker": "customer",
+      "text": "Xin lỗi, bạn nói bị lặp nhiều đoạn quá nên tôi chưa hiểu rõ ý bạn. Bạn có thể nói lại không?",
+      "timestamp": 1766474231559
+    },
+    {
+      "id": "1766474244755",
+      "speaker": "agent",
+      "text": "Dạ, xe mình hiện tại là đi cho gia đình hay là mình chạy dịch vụ hả?",
+      "timestamp": 1766474244755
+    },
+    {
+      "id": "1766474245788",
+      "speaker": "customer",
+      "text": "Xe tôi sử dụng đi làm hằng ngày và cho gia đình là chính, không chạy dịch vụ đâu.",
+      "timestamp": 1766474245787
+    },
+    {
+      "id": "1766474261855",
+      "speaker": "agent",
+      "text": "Xe này là mình mua được bao nhiêu năm rồi anh? Rồi mình có từng bị trai chạm hay là gặp nước gì hết chưa anh à?",
+      "timestamp": 1766474261855
+    },
+    {
+      "id": "1766474262838",
+      "speaker": "customer",
+      "text": "Tôi mua xe này mới từ năm 2019. Xe chưa từng đâm đụng ngập nước, chỉ bị trầy xước nhẹ thôi.",
+      "timestamp": 1766474262837
+    },
+    {
+      "id": "1766474277982",
+      "speaker": "agent",
+      "text": "Dạ, vậy thì tốt quá. Còn bảo dưỡng thì chắc mình cũng bảo dưỡng trong hãng đúng không anh?",
+      "timestamp": 1766474277982
+    },
+    {
+      "id": "1766474278844",
+      "speaker": "customer",
+      "text": "Đúng rồi, tôi bảo dưỡng trong hãng để đảm bảo chất lượng.",
+      "timestamp": 1766474278843
+    },
+    {
+      "id": "1766474293090",
+      "speaker": "agent",
+      "text": "Không biết là mục đích mình muốn bán xe là mình muốn đổi xe mới hay là mình có nhu cầu gì khác đó nào?",
+      "timestamp": 1766474293090
+    },
+    {
+      "id": "1766474294137",
+      "speaker": "customer",
+      "text": "Tôi muốn bán để đổi xe mới. Hiện chưa chọn được xe nào, bán xong mới tính.",
+      "timestamp": 1766474294136
+    },
+    {
+      "id": "1766474315517",
+      "speaker": "agent",
+      "text": "Dạ rồi anh ơi, dạ em cảm ơn anh nhiều. Vậy thì một xíu sẽ có bạn Thế để mà hỗ trợ nhắn tin với mình để xin thêm hình ảnh xe cũng như là giới thiệu cho anh về quy trình đấu giá của KUKA anh nha.",
+      "timestamp": 1766474315518
+    },
+    {
+      "id": "1766474317085",
+      "speaker": "customer",
+      "text": "Được rồi, cảm ơn bạn. Tôi cũng tò mò về quy trình đấu giá của bên bạn. Nhờ bạn ấy giải thích thêm giúp tôi nhé.",
+      "timestamp": 1766474317084
+    },
+    {
+      "id": "1766474344289",
+      "speaker": "agent",
+      "text": "Nội dung ngắn, không có tạp âm âm, không có tạp âm âm, không có tạp âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm â",
+      "timestamp": 1766474344289
+    },
+    {
+      "id": "1766474345580",
+      "speaker": "customer",
+      "text": "Có vẻ bạn bị trục trặc gì đó khi nói. Bạn có thể nói lại nội dung ngắn gọn, tôi sẽ lắng nghe và trả lời ngay.",
+      "timestamp": 1766474345579
+    }
+  ],
+  "evaluation": "Pending"
+}

@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-12-23T07:25:09.094Z",
+  "analysis": {
+    "sentiment": "Tiêu cực",
+    "score": 3,
+    "summary": "Khách hàng muốn biết về việc bán xe Hyundai Accent và cần thông tin về quy trình đấu giá và chi phí. Nhân viên không trả lời vào thắc mắc của khách hàng và sử dụng câu từ không có nghĩa liên tục. Cuộc trò chuyện kết thúc mà không giải quyết được câu hỏi của khách hàng.",
+    "strengths": "Không có điểm mạnh rõ ràng trong cuộc gọi này.",
+    "improvements": "Nhân viên cần lắng nghe yêu cầu của khách hàng và cung cấp thông tin cụ thể yêu cầu. Tránh các lỗi kỹ thuật hoặc từ ngữ không rõ ràng trong giao tiếp với khách hàng."
+  },
+  "transcript": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "À chị nghe máy. Mà em ơi chị hỏi cái này, chị chỉ định khảo giá thôi chứ chưa chắc bán đâu nha.",
+      "timestamp": 1766474653399
+    },
+    {
+      "id": "1766474667163",
+      "speaker": "agent",
+      "text": "Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+      "timestamp": 1766474667163
+    },
+    {
+      "id": "1766474668280",
+      "speaker": "customer",
+      "text": "Xin lỗi, nhưng mình đang muốn hỏi về việc bán xe Hyundai Accent của mình. Nếu có thông tin về quy trình đấu giá hay chi phí thì cho mình biết thêm nhé.",
+      "timestamp": 1766474668279
+    },
+    {
+      "id": "1766474684826",
+      "speaker": "agent",
+      "text": "Dạ chị ơi, hiện tại xe mình đang ở khu vực nào chị?",
+      "timestamp": 1766474684826
+    },
+    {
+      "id": "1766474685519",
+      "speaker": "customer",
+      "text": "Xe mình đang ở Thuận An, Bình Dương em nhé.",
+      "timestamp": 1766474685518
+    },
+    {
+      "id": "1766474697581",
+      "speaker": "agent",
+      "text": "Nội dung ngắn, không có tạp âm âm, không có tạp âm âm, không có tạp âm âm, không có tạp âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm â",
+      "timestamp": 1766474697581
+    },
+    {
+      "id": "1766474698905",
+      "speaker": "customer",
+      "text": "Xin lỗi, mình không hiểu ý bạn lắm. Bạn có thể nói rõ hơn về việc này không? Nếu có thắc mắc về thông tin xe hay quy trình đấu giá, mình sẵn sàng hỗ trợ nhé.",
+      "timestamp": 1766474698904
+    }
+  ]
+}

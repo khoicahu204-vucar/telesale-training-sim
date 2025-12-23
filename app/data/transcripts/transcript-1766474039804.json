@@ -1,0 +1,219 @@
+{
+  "id": "transcript-1766474039804",
+  "timestamp": "2025-12-23T07:13:59.804Z",
+  "agentId": "agent-002",
+  "scenarioId": "cust-003",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "Alo, tôi nghe đây.",
+      "timestamp": 1766473699798
+    },
+    {
+      "id": "1766473709402",
+      "speaker": "agent",
+      "text": "Dạ, anh có đang nghe em nói không hà?",
+      "timestamp": 1766473709402
+    },
+    {
+      "id": "1766473710799",
+      "speaker": "customer",
+      "text": "À, tôi nghe rõ đây. Không biết bên bạn có thông tin gì muốn trao đổi với tôi không?",
+      "timestamp": 1766473710798
+    },
+    {
+      "id": "1766473727627",
+      "speaker": "agent",
+      "text": "Dạ, em là Khoi, nhân viên bên Puka anh. Dạ, em thấy anh lại đòi thông tin bán chiếc Dioxans 2019 đúng không ạ?",
+      "timestamp": 1766473727627
+    },
+    {
+      "id": "1766473728956",
+      "speaker": "customer",
+      "text": "Có lẽ có chút nhầm lẫn ở đây. Tôi đang có chiếc Hyundai Accent 2019 cần bán. Không biết bên bạn có quy trình đấu giá thế nào nhỉ?",
+      "timestamp": 1766473728955
+    },
+    {
+      "id": "1766473762943",
+      "speaker": "agent",
+      "text": "Quy trình ở bên em là các bạn nhân viên sẽ kết nối với mình để xin ảnh và thông tin. Sau khi đó thì tụi em sẽ tiến hành đấu giá xe của mình trên nền tảng của Vuka.vn Sau đó thì các bên mua từ dân, các bên mà chi cập vào trang web của mình thì có thể vào để mà tham gia đấu giá.",
+      "timestamp": 1766473762943
+    },
+    {
+      "id": "1766473764217",
+      "speaker": "customer",
+      "text": "Nghe hay đấy. Nhưng mà quy trình này thường mất bao lâu và có phải trả phí gì không bạn?",
+      "timestamp": 1766473764216
+    },
+    {
+      "id": "1766473797591",
+      "speaker": "agent",
+      "text": "Nội dung ngắn, không có tạp âm âm, không có tạp âm âm, không có tạp âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm â",
+      "timestamp": 1766473797591
+    },
+    {
+      "id": "1766473798954",
+      "speaker": "customer",
+      "text": "Tôi không hiểu đoạn vừa rồi lắm. Bạn có thể giải thích rõ hơn về thời gian và chi phí đấu giá bên Vucar không?",
+      "timestamp": 1766473798953
+    },
+    {
+      "id": "1766473811749",
+      "speaker": "agent",
+      "text": "Và chi phí là một phần trăm trên tổng giá trị giao dịch ở nào?",
+      "timestamp": 1766473811749
+    },
+    {
+      "id": "1766473813246",
+      "speaker": "customer",
+      "text": "Cám ơn bạn. Vậy hợp lý. Mà thường thì quá trình này mất bao lâu nhỉ, mình muốn biết trước để sắp xếp thời gian.",
+      "timestamp": 1766473813245
+    },
+    {
+      "id": "1766473827267",
+      "speaker": "agent",
+      "text": "Cảm ơn các bạn đã xem video này. Xin chào và hẹn gặp lại.",
+      "timestamp": 1766473827267
+    },
+    {
+      "id": "1766473828900",
+      "speaker": "customer",
+      "text": "Có vẻ bạn lặp lại sai sót gì đó thì phải. Bạn có thể nói cho tôi biết thời gian quá trình đấu giá thường mất bao lâu không? Mình muốn biết thêm thông tin chi tiết.",
+      "timestamp": 1766473828899
+    },
+    {
+      "id": "1766473855268",
+      "speaker": "agent",
+      "text": "Thời gian đấu giá mất khoảng 1-3 ngày, tùy tình trạng xe của mình, nếu nhiều người quan tâm sẽ dễ bán.",
+      "timestamp": 1766473855268
+    },
+    {
+      "id": "1766473856240",
+      "speaker": "customer",
+      "text": "Tốt quá. Vậy nếu mình có thắc mắc hay cần hỗ trợ gì thêm thì có thể liên lạc với bạn qua đâu?",
+      "timestamp": 1766473856239
+    },
+    {
+      "id": "1766473870284",
+      "speaker": "agent",
+      "text": "Dạ anh ơi hiện tại là anh có dùng gia lô số này không anh?",
+      "timestamp": 1766473870284
+    },
+    {
+      "id": "1766473871460",
+      "speaker": "customer",
+      "text": "Đúng rồi, bạn có thể liên lạc với tôi qua số này trên Zalo nhé. Cảm ơn bạn nhiều!",
+      "timestamp": 1766473871459
+    },
+    {
+      "id": "1766473889290",
+      "speaker": "agent",
+      "text": "Dạ, anh. Một tí sẽ có một bạn xe ô tên là Thế. Thì bạn đó sẽ liên hệ với mình để hỗ trợ và xin thêm hình ảnh thông tin xe của mình nữa nè.",
+      "timestamp": 1766473889290
+    },
+    {
+      "id": "1766473890633",
+      "speaker": "customer",
+      "text": "Cám ơn bạn nhiều nhé! Tôi sẽ chờ liên hệ từ bạn Thế. Mong là sẽ sớm tìm được người mua hợp lý.",
+      "timestamp": 1766473890632
+    },
+    {
+      "id": "1766473907033",
+      "speaker": "agent",
+      "text": "Dạ, anh Thành ơi, anh cho em hỏi thêm là hiện tại xe mình đi được bao nhiêu km rồi anh ha?",
+      "timestamp": 1766473907033
+    },
+    {
+      "id": "1766473907654",
+      "speaker": "customer",
+      "text": "Xe đi được khoảng 132.000 km rồi bạn nhé.",
+      "timestamp": 1766473907653
+    },
+    {
+      "id": "1766473921535",
+      "speaker": "agent",
+      "text": "Dạ thì không biết là trước đây là xe mình có từng bị da chạm hay là bị ngập nước hay gì chưa anh ạ?",
+      "timestamp": 1766473921535
+    },
+    {
+      "id": "1766473922596",
+      "speaker": "customer",
+      "text": "Không, xe chưa từng bị đâm đụng hay ngập nước, chỉ có vài vết trầy xước nhẹ thôi.",
+      "timestamp": 1766473922595
+    },
+    {
+      "id": "1766473937962",
+      "speaker": "agent",
+      "text": "Dạ vậy thì tốt quá anh ơi, còn thêm cái nữa đó là hiện tại anh muốn bán với mức giá bao nhiêu anh ha?",
+      "timestamp": 1766473937962
+    },
+    {
+      "id": "1766473939290",
+      "speaker": "customer",
+      "text": "Tôi đang mong muốn bán tầm 400 triệu, đó là giá tham khảo từ mạng.",
+      "timestamp": 1766473939289
+    },
+    {
+      "id": "1766473957848",
+      "speaker": "agent",
+      "text": "Nội dung ngắn, không có tạp âm âm, không có tạp âm âm, không có tạp âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm â",
+      "timestamp": 1766473957848
+    },
+    {
+      "id": "1766473959128",
+      "speaker": "customer",
+      "text": "Xin lỗi, nhưng có vẻ như bạn nói hơi bị lỗi. Bạn có thể nói lại thông tin để tôi hiểu rõ hơn không?",
+      "timestamp": 1766473959127
+    },
+    {
+      "id": "1766473973405",
+      "speaker": "agent",
+      "text": "Dạ, thì không biết là xe mình anh muốn bán cho bao lâu anh ha?",
+      "timestamp": 1766473973405
+    },
+    {
+      "id": "1766473974420",
+      "speaker": "customer",
+      "text": "Thời gian linh hoạt bạn ạ. \"Bao lâu cũng được, giá hợp lý thì bán\" thôi.",
+      "timestamp": 1766473974419
+    },
+    {
+      "id": "1766473988645",
+      "speaker": "agent",
+      "text": "Với lại ngoài ra, lý do mình muốn bán xe là mình muốn đổi lên xe mới hay là mình không còn nhu cầu sử dụng nữa à?",
+      "timestamp": 1766473988645
+    },
+    {
+      "id": "1766473989977",
+      "speaker": "customer",
+      "text": "Đúng rồi, tôi muốn đổi lên xe mới. Hiện tại thì chưa chọn được xe nào cả, bán xong mới tính tiếp.",
+      "timestamp": 1766473989976
+    },
+    {
+      "id": "1766474009844",
+      "speaker": "agent",
+      "text": "Nội dung ngắn, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm, không có tạp âm,",
+      "timestamp": 1766474009844
+    },
+    {
+      "id": "1766474010763",
+      "speaker": "customer",
+      "text": "Có lẽ có lỗi gì đó trong lời nói của bạn. Bạn có thể nói lại thông tin để tôi hiểu rõ hơn được không?",
+      "timestamp": 1766474010762
+    },
+    {
+      "id": "1766474027504",
+      "speaker": "agent",
+      "text": "Vậy chúc các sự có bản thế để nhắn tin và trả lời với mình anh à. Em cảm ơn anh nhiều.",
+      "timestamp": 1766474027504
+    },
+    {
+      "id": "1766474028733",
+      "speaker": "customer",
+      "text": "Không có gì, cảm ơn bạn nữa đã hỗ trợ. Tôi sẽ chờ liên lạc từ bên bạn. Chúc các bạn ngày làm việc thuận lợi nhé!",
+      "timestamp": 1766474028732
+    }
+  ],
+  "evaluation": "Pending"
+}

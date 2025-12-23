@@ -1,0 +1,27 @@
+{
+  "id": "transcript-1766465244167",
+  "timestamp": "2025-12-23T04:47:24.167Z",
+  "agentId": "agent-001",
+  "scenarioId": "cust-003",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "À chị nghe máy. Mà em ơi chị hỏi cái này, chị chỉ định khảo giá thôi chứ chưa chắc bán đâu nha.",
+      "timestamp": 1766464889407
+    },
+    {
+      "id": "1766464909475",
+      "speaker": "agent",
+      "text": "Cảm ơn các bạn đã xem video này. Xin chào và hẹn gặp lại các bạn trong những video tiếp theo.",
+      "timestamp": 1766464909475
+    },
+    {
+      "id": "1766464911113",
+      "speaker": "customer",
+      "text": "Xin lỗi, chắc có nhầm lẫn gì ở đây. Tôi đang trao đổi về việc bán xe của tôi. Bạn có thể hỗ trợ tôi về quy trình đấu giá của Vucar không?",
+      "timestamp": 1766464911112
+    }
+  ],
+  "evaluation": "Pending"
+}

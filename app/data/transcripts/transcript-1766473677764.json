@@ -1,0 +1,87 @@
+{
+  "id": "transcript-1766473677764",
+  "timestamp": "2025-12-23T07:07:57.764Z",
+  "agentId": "agent-002",
+  "scenarioId": "cust-003",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "Alo, tôi nghe đây.",
+      "timestamp": 1766473510052
+    },
+    {
+      "id": "1766473527659",
+      "speaker": "agent",
+      "text": "Dạ alo anh ơi, anh có phải là anh thành chủ chiếc xe Hyundai Accent 2019 đúng không ạ?",
+      "timestamp": 1766473527659
+    },
+    {
+      "id": "1766473528503",
+      "speaker": "customer",
+      "text": "Đúng rồi, tôi là Thành đây. Có chuyện gì không bạn?",
+      "timestamp": 1766473528502
+    },
+    {
+      "id": "1766473543594",
+      "speaker": "agent",
+      "text": "Cảm ơn các bạn đã theo dõi và đăng ký kênh của mình nhé.",
+      "timestamp": 1766473543594
+    },
+    {
+      "id": "1766473544940",
+      "speaker": "customer",
+      "text": "Hình như bạn lộn người rồi thì phải. Tôi đang cần thông tin về việc bán chiếc Hyundai Accent của mình.",
+      "timestamp": 1766473544939
+    },
+    {
+      "id": "1766473562151",
+      "speaker": "agent",
+      "text": "Cảm ơn các bạn đã theo dõi, hẹn gặp lại các bạn trong những video tiếp theo.",
+      "timestamp": 1766473562151
+    },
+    {
+      "id": "1766473563521",
+      "speaker": "customer",
+      "text": "Bạn ơi, hình như bạn đang nhầm lẫn gì đó. Tôi không làm video, tôi chỉ muốn tìm hiểu thêm về quy trình đấu giá bán xe thôi.",
+      "timestamp": 1766473563520
+    },
+    {
+      "id": "1766473637214",
+      "speaker": "agent",
+      "text": "Các bạn nhớ đăng ký kênh để ủng hộ kênh của mình nhé! Các bạn nhớ đăng ký kênh để ủng hộ kênh của mình nhé! Các bạn nhớ đăng ký kênh để ủng hộ kênh của mình nhé!",
+      "timestamp": 1766473637214
+    },
+    {
+      "id": "1766473638528",
+      "speaker": "customer",
+      "text": "Xin lỗi, có vẻ như bạn đang gặp chút trục trặc gì đó. Khi nào bạn rảnh và có thể trao đổi về xe thì liên hệ lại giúp tôi nhé. Cảm ơn bạn!",
+      "timestamp": 1766473638527
+    },
+    {
+      "id": "1766473652267",
+      "speaker": "agent",
+      "text": "Các bạn hãy đăng kí cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+      "timestamp": 1766473652267
+    },
+    {
+      "id": "1766473653548",
+      "speaker": "customer",
+      "text": "Có vẻ như có nhầm lẫn ở đây. Tôi muốn nghe thông tin về việc bán xe Hyundai Accent của mình. Bạn có thể giúp tôi giải đáp thắc mắc về quy trình đấu giá được không?",
+      "timestamp": 1766473653547
+    },
+    {
+      "id": "1766473672628",
+      "speaker": "agent",
+      "text": "Cảm ơn các bạn đã xem. Hẹn gặp lại.",
+      "timestamp": 1766473672628
+    },
+    {
+      "id": "1766473674072",
+      "speaker": "customer",
+      "text": "Có vẻ bạn đang gặp phải nhầm lẫn. Khi nào bạn sẵn sàng để nói chuyện về việc đấu giá xe thì hãy liên hệ lại giúp tôi nhé. Cảm ơn bạn.",
+      "timestamp": 1766473674071
+    }
+  ],
+  "evaluation": "Pending"
+}

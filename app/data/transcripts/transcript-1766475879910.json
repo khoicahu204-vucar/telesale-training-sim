@@ -1,0 +1,15 @@
+{
+  "id": "transcript-1766475879910",
+  "timestamp": "2025-12-23T07:44:39.910Z",
+  "agentId": "agent-001",
+  "scenarioId": "cust-005",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "À chị nghe máy. Mà em ơi chị hỏi cái này, chị chỉ định khảo giá thôi chứ chưa chắc bán đâu nha.",
+      "timestamp": 1766475875828
+    }
+  ],
+  "evaluation": "Pending"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "transcript-1766473251463",
+  "timestamp": "2025-12-23T07:00:51.463Z",
+  "agentId": "agent-002",
+  "scenarioId": "cust-003",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "Alo, tôi nghe đây.",
+      "timestamp": 1766473228246
+    },
+    {
+      "id": "1766473243447",
+      "speaker": "agent",
+      "text": "Các bạn hãy đăng kí cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+      "timestamp": 1766473243447
+    },
+    {
+      "id": "1766473244609",
+      "speaker": "customer",
+      "text": "Xin lỗi, bạn có thể nhắc lại được không? Tôi nghĩ có gì đó không liên quan tới cuộc trò chuyện của chúng ta. Bạn cần hỗ trợ gì về việc bán xe của tôi không?",
+      "timestamp": 1766473244608
+    }
+  ],
+  "evaluation": "Pending"
+}

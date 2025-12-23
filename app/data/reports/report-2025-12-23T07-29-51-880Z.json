@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-12-23T07:29:51.880Z",
+  "analysis": {
+    "sentiment": "Tiêu cực",
+    "score": 4,
+    "summary": "Khách hàng muốn bán xe Mazda 3 Sport 2021 Luxury với giá 550 triệu đồng nhưng gặp khó khăn vì giá đề xuất từ khách hàng tiềm năng của trung tâm là 500 triệu. Khách nhấn mạnh sự cần thiết của việc bán nhanh trong vòng 3 ngày. Nhân viên chưa cung cấp thông tin rõ ràng về thời gian và cam kết giao dịch cụ thể.",
+    "strengths": "Nhân viên đã thu thập thông tin chi tiết về xe từ khách hàng và cố gắng giải thích lý do giá xe giảm.",
+    "improvements": "Nhân viên cần cải thiện kỹ năng lắng nghe và phản hồi sâu hơn nhu cầu của khách hàng về thời gian và sự chắc chắn của giao dịch. Nhân viên cũng nên tránh đưa nội dung không liên quan vào cuộc trò chuyện."
+  },
+  "transcript": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "Alo em hả, xe anh bán được giá bao nhiêu? Anh đang cần tiền gấp.",
+      "timestamp": 1766474832550
+    },
+    {
+      "id": "1766474845244",
+      "speaker": "agent",
+      "text": "Dạ anh ơi, xe mình là xe gì anh à?",
+      "timestamp": 1766474845244
+    },
+    {
+      "id": "1766474846778",
+      "speaker": "customer",
+      "text": "Anh có con Mazda 3 Sport 2021 Luxury. Odo khoảng 45.000 km. Em có khách nào chưa? Anh cần bán gấp trong 3 ngày tới.",
+      "timestamp": 1766474846777
+    },
+    {
+      "id": "1766474866438",
+      "speaker": "agent",
+      "text": "Dạ anh ơi, hiện tại xe mình đang ở khu vực nào anh ạ?",
+      "timestamp": 1766474866438
+    },
+    {
+      "id": "1766474867659",
+      "speaker": "customer",
+      "text": "Anh ở Quận 7, TP.HCM. Em có ai mua thì cho anh biết nhanh với. Cần gấp lắm rồi.",
+      "timestamp": 1766474867658
+    },
+    {
+      "id": "1766474890295",
+      "speaker": "agent",
+      "text": "Nội dung ngắn, không có tạp âm âm, không có tạp âm âm, không có tạp âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm âm â",
+      "timestamp": 1766474890295
+    },
+    {
+      "id": "1766474891418",
+      "speaker": "customer",
+      "text": "Thế chốt lại là bao giờ bán được? Em có đặt cọc luôn không? Anh cần biết chắc chắn thời gian để lo việc khác.",
+      "timestamp": 1766474891417
+    },
+    {
+      "id": "1766474911595",
+      "speaker": "agent",
+      "text": "Dạ anh ơi hiện tại là khách bên em là người cao nhất có thể trả lại 500 triệu. Anh thấy mức giá này sao?",
+      "timestamp": 1766474911595
+    },
+    {
+      "id": "1766474913801",
+      "speaker": "customer",
+      "text": "500 triệu hả? Thấp quá em ơi. Xe anh giữ gìn kỹ, chỉ cần 550 triệu thôi. Em xem có thể thuyết phục khách được không? Anh cần tiền gấp mà.",
+      "timestamp": 1766474913800
+    },
+    {
+      "id": "1766474942212",
+      "speaker": "agent",
+      "text": "Tại vì xe mình đời cũng cách 4-5 năm rồi, với lại cuối năm nay cũng chuẩn bị ra mẫu mới cho nên giá cuối năm nó hơi giảm xíu quá anh. Cho nên là em nghĩ 500 triệu là tốt nhất rồi đó.",
+      "timestamp": 1766474942212
+    },
+    {
+      "id": "1766474943751",
+      "speaker": "customer",
+      "text": "Anh hiểu, nhưng 550 triệu cũng đã thấp so với thị trường rồi. Anh cần bán gấp nên mới để giá đó. Em giúp anh thuyết phục khách lên chút được không? Anh thực sự cần tiền trong mấy ngày tới.",
+      "timestamp": 1766474943750
+    },
+    {
+      "id": "1766474973655",
+      "speaker": "agent",
+      "text": "Các bạn hãy đăng kí cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+      "timestamp": 1766474973655
+    },
+    {
+      "id": "1766474975047",
+      "speaker": "customer",
+      "text": "Anh cần biết là bao giờ chốt được giao dịch, có cọc luôn không em? Anh không có nhiều thời gian đâu.",
+      "timestamp": 1766474975046
+    }
+  ]
+}

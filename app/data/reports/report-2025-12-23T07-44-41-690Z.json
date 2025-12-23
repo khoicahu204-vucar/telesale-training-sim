@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-12-23T07:44:41.690Z",
+  "analysis": {
+    "sentiment": "Neutral",
+    "score": 6,
+    "summary": "Khách hàng liên hệ để khảo giá nhưng chưa chắc chắn sẽ bán xe. Đại lý tiếp nhận yêu cầu và cung cấp thông tin cần thiết.",
+    "strengths": "Nhân viên lắng nghe nhu cầu của khách hàng và cung cấp thông tin một cách rõ ràng.",
+    "improvements": "Tăng cường kỹ năng thuyết phục để khuyến khích khách hàng đưa ra quyết định mua hàng."
+  },
+  "transcript": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "À chị nghe máy. Mà em ơi chị hỏi cái này, chị chỉ định khảo giá thôi chứ chưa chắc bán đâu nha.",
+      "timestamp": 1766475875828
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "transcript-1766473122224",
+  "timestamp": "2025-12-23T06:58:42.224Z",
+  "agentId": "agent-001",
+  "scenarioId": "cust-003",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "Alo em hả, xe anh bán được giá bao nhiêu? Anh đang cần tiền gấp.",
+      "timestamp": 1766473025277
+    },
+    {
+      "id": "1766473052737",
+      "speaker": "agent",
+      "text": "Dạ Xe mình là xe gì anh ha? Em có thấy thông tin của mình là mình đang dùng xe 4 ta đúng không anh?",
+      "timestamp": 1766473052737
+    },
+    {
+      "id": "1766473055360",
+      "speaker": "customer",
+      "text": "Đúng rồi em. Xe của anh là Hyundai Accent 2019 1.4 MT. Ổn định, đi làm hàng ngày thôi. Em có thể giúp anh bán được giá hợp lý không?",
+      "timestamp": 1766473055359
+    },
+    {
+      "id": "1766473076250",
+      "speaker": "agent",
+      "text": "Hãy đăng ký kênh nhé. Cảm ơn mọi người đã theo dõi và đăng ký kênh nhé.",
+      "timestamp": 1766473076250
+    },
+    {
+      "id": "1766473077478",
+      "speaker": "customer",
+      "text": "Anh không hiểu lắm. Nhưng mà em có thể cho anh biết thêm về quy trình đấu giá của Vucar không? Và thời gian đấu giá có lâu không em? Anh quan tâm đến chi phí và thời gian á.",
+      "timestamp": 1766473077477
+    },
+    {
+      "id": "1766473101493",
+      "speaker": "agent",
+      "text": "Dạ, xe mình đã đi được bao nhiêu km rồi anh ạ? Dạ vâng, xin chào.",
+      "timestamp": 1766473101493
+    },
+    {
+      "id": "1766473103702",
+      "speaker": "customer",
+      "text": "Xe anh đã đi khoảng 132.000 km rồi em. Tình trạng xe thì chưa đâm đụng ngập nước, chỉ trầy xước nhẹ thôi. Em có thể giúp anh với thông tin này không?",
+      "timestamp": 1766473103701
+    }
+  ],
+  "evaluation": "Pending"
+}

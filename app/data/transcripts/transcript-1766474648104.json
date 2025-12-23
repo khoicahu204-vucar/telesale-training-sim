@@ -1,0 +1,39 @@
+{
+  "id": "transcript-1766474648104",
+  "timestamp": "2025-12-23T07:24:08.105Z",
+  "agentId": "agent-002",
+  "scenarioId": "cust-004",
+  "messages": [
+    {
+      "id": "init",
+      "speaker": "customer",
+      "text": "Alo em hả, xe anh bán được giá bao nhiêu? Anh đang cần tiền gấp.",
+      "timestamp": 1766474608582
+    },
+    {
+      "id": "1766474623958",
+      "speaker": "agent",
+      "text": "Dạ anh ơi, cho em hỏi, anh phải anh Hùng, chủ chiếc Mazda 3 Sport 2021 đúng không ạ?",
+      "timestamp": 1766474623958
+    },
+    {
+      "id": "1766474625046",
+      "speaker": "customer",
+      "text": "Không phải em ơi, anh là Trịnh Văn Thành, chủ xe Hyundai Accent 2019. Em gọi nhầm số rồi đó.",
+      "timestamp": 1766474625045
+    },
+    {
+      "id": "1766474640228",
+      "speaker": "agent",
+      "text": "À, dạ, dạ, dạ rồi, em cảm ơn anh nhiều. Dạ, em xin lỗi anh.",
+      "timestamp": 1766474640228
+    },
+    {
+      "id": "1766474641374",
+      "speaker": "customer",
+      "text": "Không sao đâu em. Nếu có thông tin gì cần thêm về việc bán xe thì cứ gọi anh nhé.",
+      "timestamp": 1766474641373
+    }
+  ],
+  "evaluation": "Pending"
+}
