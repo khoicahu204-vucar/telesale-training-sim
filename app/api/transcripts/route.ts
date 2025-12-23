@@ -1,7 +1,5 @@
-
 import { NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import { put } from "@vercel/blob";
 
 export async function POST(req: Request) {
   try {
@@ -18,14 +16,19 @@ export async function POST(req: Request) {
       agentId: agentId || "anonymous",
       scenarioId,
       messages,
-      evaluation: "Pending" // Placeholder for evaluation logic
+      evaluation: "Pending"
     };
 
-    const filePath = path.join(process.cwd(), "app/data/transcripts", `${transcriptId}.json`);
+    const filename = `transcripts/${transcriptId}.json`;
     
-    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    const blob = await put(filename, JSON.stringify(data, null, 2), {
+      access: "public",
+      contentType: "application/json"
+    });
 
-    return NextResponse.json({ success: true, id: transcriptId });
+    console.log(`Transcript saved to Blob URL: ${blob.url}`);
+
+    return NextResponse.json({ success: true, id: transcriptId, url: blob.url });
   } catch (error) {
     console.error("Error saving transcript:", error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
@@ -33,15 +36,5 @@ export async function POST(req: Request) {
 }
 
 export async function GET() {
-  // Optional: List all transcripts
-  const dirPath = path.join(process.cwd(), "app/data/transcripts");
-  if (!fs.existsSync(dirPath)) return NextResponse.json({ transcripts: [] });
-  
-  const files = fs.readdirSync(dirPath);
-  const transcripts = files.map(file => {
-     const content = fs.readFileSync(path.join(dirPath, file), 'utf-8');
-     return JSON.parse(content);
-  });
-  
-  return NextResponse.json({ transcripts });
+  return NextResponse.json({ message: "Listing not supported in Vercel Blob mode yet" });
 }

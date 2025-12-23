@@ -1,7 +1,6 @@
 import { OpenAI } from "openai";
 import { NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
+import { put } from "@vercel/blob";
 
 export async function POST(req: Request) {
   const apiKey = process.env.OPENAI_API_KEY;
@@ -44,29 +43,25 @@ export async function POST(req: Request) {
 
     const result = JSON.parse(response.choices[0].message.content || "{}");
 
-    // Save report to file
+    // Save report to Blob
     try {
-      const reportsDir = path.join(process.cwd(), "app/data/reports");
-      if (!fs.existsSync(reportsDir)) {
-        fs.mkdirSync(reportsDir, { recursive: true });
-      }
-
       const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
-      const filename = `report-${timestamp}.json`;
-      const filePath = path.join(reportsDir, filename);
-
+      const filename = `reports/report-${timestamp}.json`;
+      
       const reportData = {
         timestamp: new Date().toISOString(),
         analysis: result,
         transcript: messages
       };
 
-      fs.writeFileSync(filePath, JSON.stringify(reportData, null, 2));
-      console.log(`Report saved to: ${filePath}`);
+      const blob = await put(filename, JSON.stringify(reportData, null, 2), {
+        access: "public",
+        contentType: "application/json"
+      });
+      console.log(`Report saved to Blob URL: ${blob.url}`);
 
-    } catch (fsError) {
-      console.error("Error saving report file:", fsError);
-      // Continue returning result even if save fails
+    } catch (blobError) {
+      console.error("Error saving report to Blob:", blobError);
     }
 
     return NextResponse.json(result);

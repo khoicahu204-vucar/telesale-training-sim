@@ -174,6 +174,16 @@ export default function Dashboard({ account }: DashboardProps) {
   const processUserAudio = async (audioBlob: Blob) => {
     setIsProcessing(true)
     try {
+      // 0. Upload Audio (Background)
+      const uploadFormData = new FormData()
+      uploadFormData.append("file", audioBlob, `recording-${Date.now()}.webm`)
+      fetch("/api/upload-audio", {
+        method: "POST",
+        body: uploadFormData
+      }).then(res => res.json())
+        .then(data => console.log("Audio uploaded:", data.url))
+        .catch(err => console.error("Audio upload failed:", err))
+
       // 1. STT
       const formData = new FormData()
       formData.append("file", audioBlob, "recording.webm")
