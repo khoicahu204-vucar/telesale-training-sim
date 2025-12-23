@@ -16,9 +16,10 @@ interface CallStatsProps {
     strengths: string
     improvements: string
   } | null
+  fullRecordingUrl?: string | null
 }
 
-export default function CallStats({ onClose, messages, data }: CallStatsProps) {
+export default function CallStats({ onClose, messages, data, fullRecordingUrl }: CallStatsProps) {
   const [stats, setStats] = useState({
     duration: "0 phút",
     messageCount: 0,
@@ -65,6 +66,23 @@ export default function CallStats({ onClose, messages, data }: CallStatsProps) {
       </CardHeader>
 
       <CardContent className="p-6">
+        {fullRecordingUrl && (
+          <div className="mb-6 p-4 bg-blue-900/30 border border-blue-500/50 rounded-lg flex items-center justify-between">
+            <div>
+              <p className="text-blue-200 text-sm font-semibold">🔊 Ghi âm toàn bộ cuộc gọi</p>
+              <p className="text-slate-400 text-xs mt-1">File đã được gộp từ 2 phía</p>
+            </div>
+            <a
+              href={fullRecordingUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded transition-colors"
+            >
+              Nghe & Tải về
+            </a>
+          </div>
+        )}
+
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           {/* Duration */}
           <div className="bg-slate-700 p-4 rounded-lg">

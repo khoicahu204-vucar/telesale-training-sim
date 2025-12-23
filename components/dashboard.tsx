@@ -6,32 +6,27 @@ import CustomerList from "@/components/customer-list"
 import CallTranscript, { TranscriptMessage } from "@/components/call-transcript"
 import CallStats from "@/components/call-stats"
 import CustomerInfo from "@/components/customer-info"
-import { scenarios } from "@/app/data/scenarios"
-import { Loader2, Mic, Square } from "lucide-react"
+import { mergeAudioBlobs } from "@/lib/audio-utils"
 
-interface DashboardProps {
-  account: string
-}
+// ... existing imports
 
 export default function Dashboard({ account }: DashboardProps) {
   /* State */
-  const [selectedCustomerId, setSelectedCustomerId] = useState<string | null>("cust-003")
-  const [isCallActive, setIsCallActive] = useState(false)
-  const [showStats, setShowStats] = useState(false)
-  const [activeTab, setActiveTab] = useState<"info" | "transcript">("info")
-  const [messages, setMessages] = useState<TranscriptMessage[]>([])
-  const [isRecording, setIsRecording] = useState(false)
-  const [isProcessing, setIsProcessing] = useState(false)
-  const [isPlayingAudio, setIsPlayingAudio] = useState(false)
+  // ... existing state
   const [statsData, setStatsData] = useState<any>(null)
+  const [fullRecordingUrl, setFullRecordingUrl] = useState<string | null>(null)
 
   /* Refs */
   const mediaRecorderRef = useRef<MediaRecorder | null>(null)
   const audioChunksRef = useRef<Blob[]>([])
   const audioPlayerRef = useRef<HTMLAudioElement | null>(null)
+  const fullConversationBlobsRef = useRef<Blob[]>([])
 
   /* Helpers */
   const playAudio = async (blob: Blob) => {
+    // Track AI Audio
+    fullConversationBlobsRef.current.push(blob)
+
     setIsPlayingAudio(true)
     const url = URL.createObjectURL(blob)
 
@@ -68,10 +63,15 @@ export default function Dashboard({ account }: DashboardProps) {
     }
   }, [isRecording, isCallActive, isProcessing, isPlayingAudio])
 
+  /* Keyboard Listeners */
+  // ... (keep useEffect) ...
+
   const handleStartCall = async () => {
     setIsCallActive(true)
     setMessages([])
     setStatsData(null)
+    setFullRecordingUrl(null)
+    fullConversationBlobsRef.current = []
     setActiveTab("transcript")
 
     // Find scenario linked to customer (mock logic for now, using the new scenario)
@@ -172,6 +172,9 @@ export default function Dashboard({ account }: DashboardProps) {
   }
 
   const processUserAudio = async (audioBlob: Blob) => {
+    // Track User Audio
+    fullConversationBlobsRef.current.push(audioBlob)
+
     setIsProcessing(true)
     try {
       // Parallel: Upload Audio & STT
@@ -357,6 +360,7 @@ export default function Dashboard({ account }: DashboardProps) {
                         onClose={() => setShowStats(false)}
                         data={statsData}
                         messages={messages}
+                        fullRecordingUrl={fullRecordingUrl}
                       />
                     </div>
                   )}
