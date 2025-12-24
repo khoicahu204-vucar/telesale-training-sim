@@ -17,9 +17,18 @@ interface CallStatsProps {
     improvements: string
   } | null
   fullRecordingUrl?: string | null
+  isProcessingAudio?: boolean
 }
 
-export default function CallStats({ onClose, messages, data, fullRecordingUrl }: CallStatsProps) {
+export default function CallStats({ onClose, messages, data, fullRecordingUrl, isProcessingAudio }: CallStatsProps) {
+  // ... (keep useEffect and states) [This part can be skipped if StartLine/EndLine is broad, but I will be specific]
+  // Actually I need to update the return block. Let's target the Return block specifically.
+
+  // ... (keeping existing logic) ...
+  // Wait, I should just target the CallStatsProps and the Component Start to add prop.
+  // And then target the Return JSX for the UI.
+  // I'll do 2 chunks.
+
   const [stats, setStats] = useState({
     duration: "0 phút",
     messageCount: 0,
@@ -66,12 +75,20 @@ export default function CallStats({ onClose, messages, data, fullRecordingUrl }:
       </CardHeader>
 
       <CardContent className="p-6">
-        {fullRecordingUrl && (
-          <div className="mb-6 p-4 bg-blue-900/30 border border-blue-500/50 rounded-lg flex items-center justify-between">
-            <div>
-              <p className="text-blue-200 text-sm font-semibold">🔊 Ghi âm toàn bộ cuộc gọi</p>
-              <p className="text-slate-400 text-xs mt-1">File đã được gộp từ 2 phía</p>
+        <div className="mb-6 p-4 bg-blue-900/30 border border-blue-500/50 rounded-lg flex items-center justify-between">
+          <div>
+            <p className="text-blue-200 text-sm font-semibold">🔊 Ghi âm toàn bộ cuộc gọi</p>
+            <p className="text-slate-400 text-xs mt-1">
+              {isProcessingAudio ? "Đang ghép nối audio..." : "File đã được gộp từ 2 phía"}
+            </p>
+          </div>
+
+          {isProcessingAudio ? (
+            <div className="flex items-center gap-2 text-slate-300 text-sm px-4 py-2">
+              <Loader2 className="w-4 h-4 animate-spin" />
+              <span>Đang xử lý...</span>
             </div>
+          ) : fullRecordingUrl ? (
             <a
               href={fullRecordingUrl}
               download={`call-recording-${new Date().getTime()}.wav`}
@@ -82,8 +99,10 @@ export default function CallStats({ onClose, messages, data, fullRecordingUrl }:
               <Download className="mr-2 h-4 w-4" />
               Tải về máy
             </a>
-          </div>
-        )}
+          ) : (
+            <span className="text-slate-500 text-xs italic px-4">Không có bản ghi</span>
+          )}
+        </div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           {/* Duration */}

@@ -26,6 +26,7 @@ export default function Dashboard({ account }: DashboardProps) {
   const [isPlayingAudio, setIsPlayingAudio] = useState(false)
   const [statsData, setStatsData] = useState<any>(null)
   const [fullRecordingUrl, setFullRecordingUrl] = useState<string | null>(null)
+  const [isProcessingAudio, setIsProcessingAudio] = useState(false)
 
   /* Refs */
   const mediaRecorderRef = useRef<MediaRecorder | null>(null)
@@ -113,6 +114,8 @@ export default function Dashboard({ account }: DashboardProps) {
     }
   }
 
+
+
   const handleEndCall = async () => {
     setIsCallActive(false)
     setShowStats(true)
@@ -120,11 +123,37 @@ export default function Dashboard({ account }: DashboardProps) {
       audioPlayerRef.current.pause()
     }
     setIsPlayingAudio(false)
+    setIsProcessingAudio(true) // Start processing
 
     // Save Transcript & Analyze
     const scenario = scenarios.find(s => s.id === selectedCustomerId) || scenarios[0]
 
     try {
+      // 1. Merge & Upload Full Audio
+      let audioUrl = null
+      if (fullConversationBlobsRef.current.length > 0) {
+        try {
+          console.log("Merging blobs:", fullConversationBlobsRef.current.length)
+          const combinedBlob = await mergeAudioBlobs(fullConversationBlobsRef.current)
+          const audioFormData = new FormData()
+          audioFormData.append("file", combinedBlob, `full-conversation-${Date.now()}.wav`)
+
+          const uploadRes = await fetch("/api/upload-audio", {
+            method: "POST",
+            body: audioFormData
+          })
+          if (!uploadRes.ok) throw new Error("Upload failed")
+          const uploadData = await uploadRes.json()
+          audioUrl = uploadData.url
+          setFullRecordingUrl(audioUrl)
+        } catch (audioErr) {
+          console.error("Error merging/uploading audio:", audioErr)
+        }
+      } else {
+        console.warn("No audio blobs to merge")
+      }
+      setIsProcessingAudio(false) // Done processing
+
       // Save Transcript
       await fetch("/api/transcripts", {
         method: "POST",
@@ -132,7 +161,8 @@ export default function Dashboard({ account }: DashboardProps) {
         body: JSON.stringify({
           messages,
           scenarioId: scenario.id,
-          agentId: account
+          agentId: account,
+          audioUrl
         })
       })
 
@@ -147,6 +177,7 @@ export default function Dashboard({ account }: DashboardProps) {
 
     } catch (e) {
       console.error("Error processing call end:", e)
+      setIsProcessingAudio(false)
     }
   }
 
@@ -372,6 +403,7 @@ export default function Dashboard({ account }: DashboardProps) {
                         data={statsData}
                         messages={messages}
                         fullRecordingUrl={fullRecordingUrl}
+                        isProcessingAudio={isProcessingAudio}
                       />
                     </div>
                   )}
