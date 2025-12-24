@@ -39,6 +39,41 @@ const mockCustomers: Customer[] = [
     email: "lan.pham@gmail.com",
     lastCall: "Chưa gọi",
   },
+  {
+    id: "cust-006",
+    name: "Thảo",
+    phone: "09xxx (Chưa rõ)",
+    email: "thao.kia@gmail.com",
+    lastCall: "Chưa gọi",
+  },
+  {
+    id: "cust-007",
+    name: "Đặng Minh Vũ",
+    phone: "09xxx (Chưa rõ)",
+    email: "vu.sedona@gmail.com",
+    lastCall: "Chưa gọi",
+  },
+  {
+    id: "cust-008",
+    name: "Lê Trà",
+    phone: "09xxx (Chưa rõ)",
+    email: "tra.vf5@gmail.com",
+    lastCall: "Chưa gọi",
+  },
+  {
+    id: "cust-009",
+    name: "Phan Tuấn Thy",
+    phone: "0934080443",
+    email: "thy.chevrolet@gmail.com",
+    lastCall: "Chưa gọi",
+  },
+  {
+    id: "cust-010",
+    name: "Khánh Linh",
+    phone: "09xxx (Chưa rõ)",
+    email: "linh.santafe@gmail.com",
+    lastCall: "Chưa gọi",
+  },
 ]
 
 export default function CustomerList({ selectedId, onSelectCustomer, isCallActive }: CustomerListProps) {
@@ -73,8 +108,8 @@ export default function CustomerList({ selectedId, onSelectCustomer, isCallActiv
                 key={customer.id}
                 onClick={() => !isCallActive && onSelectCustomer(customer.id)}
                 className={`p-3 rounded-lg cursor-pointer transition-all ${selectedId === customer.id
-                    ? "bg-blue-600 border border-blue-500"
-                    : "bg-slate-700 border border-slate-600 hover:bg-slate-600"
+                  ? "bg-blue-600 border border-blue-500"
+                  : "bg-slate-700 border border-slate-600 hover:bg-slate-600"
                   } ${isCallActive && selectedId !== customer.id ? "opacity-50 cursor-not-allowed" : ""}`}
               >
                 <p className="font-medium text-sm">{customer.name}</p>
