@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { TranscriptMessage } from "./call-transcript"
-import { Loader2 } from "lucide-react"
+import { Loader2, Download } from "lucide-react"
 
 interface CallStatsProps {
   onClose: () => void
@@ -74,11 +74,13 @@ export default function CallStats({ onClose, messages, data, fullRecordingUrl }:
             </div>
             <a
               href={fullRecordingUrl}
+              download={`call-recording-${new Date().getTime()}.wav`}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded transition-colors"
+              className="bg-blue-600 hover:bg-blue-700 text-white text-sm px-4 py-2 rounded transition-colors flex items-center"
             >
-              Nghe & Tải về
+              <Download className="mr-2 h-4 w-4" />
+              Tải về máy
             </a>
           </div>
         )}

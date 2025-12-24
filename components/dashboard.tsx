@@ -7,12 +7,23 @@ import CallTranscript, { TranscriptMessage } from "@/components/call-transcript"
 import CallStats from "@/components/call-stats"
 import CustomerInfo from "@/components/customer-info"
 import { mergeAudioBlobs } from "@/lib/audio-utils"
+import { scenarios } from "@/app/data/scenarios"
+import { Loader2, Mic, Square } from "lucide-react"
 
-// ... existing imports
+interface DashboardProps {
+  account: string
+}
 
 export default function Dashboard({ account }: DashboardProps) {
   /* State */
-  // ... existing state
+  const [selectedCustomerId, setSelectedCustomerId] = useState<string | null>("cust-003")
+  const [isCallActive, setIsCallActive] = useState(false)
+  const [showStats, setShowStats] = useState(false)
+  const [activeTab, setActiveTab] = useState<"info" | "transcript">("info")
+  const [messages, setMessages] = useState<TranscriptMessage[]>([])
+  const [isRecording, setIsRecording] = useState(false)
+  const [isProcessing, setIsProcessing] = useState(false)
+  const [isPlayingAudio, setIsPlayingAudio] = useState(false)
   const [statsData, setStatsData] = useState<any>(null)
   const [fullRecordingUrl, setFullRecordingUrl] = useState<string | null>(null)
 
